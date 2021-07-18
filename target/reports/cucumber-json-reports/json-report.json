@@ -1,0 +1,2522 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 912000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6033212500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6756367000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "6"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "+"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "1"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27604049000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 112800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2076258500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6395209500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "-"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "7"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7070972700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1229282700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6417505500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "3"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "*"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "4"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7258150200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 366300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103309500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6315327200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "8"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "2"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4968145000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 306400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1173280100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6341399400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "5"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "5"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3404646000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1073400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1204083700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6515287500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "3"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "2"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see 1.5",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 22,
+            "value": "#Negative cases"
+          }
+        ],
+        "line": 23,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 335900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1147586400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7614638900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "6"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "+"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "1"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21426664400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see -5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-5",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 381900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235035200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7832056500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "-"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "7"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "Y"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9589473700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 16",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 241600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1406944700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7620663200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "8"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "*"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "4"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7011547400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see -32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-32",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 157200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 920704000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7647580100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "3"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "2"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see -1.5",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 189700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1584861100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6356279600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "3"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "0"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see Error",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 395000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118594800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7932482200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "0"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "2"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075766700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 133600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235049800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6296256100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "8"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see 1.125",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 166700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 961910100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7726997400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "8"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see -0.88888889",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 31,
+            "value": "#Boundary cases"
+          }
+        ],
+        "line": 32,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 171400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1162343600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7718058700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "0"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "+"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "0"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13119307700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 1639700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1326376700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7744553600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "-"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "Y"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6906456100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;18",
+        "after": [
+          {
+            "result": {
+              "duration": 436600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 945852100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6236710000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "+"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4268331700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;19",
+        "after": [
+          {
+            "result": {
+              "duration": 230200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059958300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6372193000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "0"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3411205400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;20",
+        "after": [
+          {
+            "result": {
+              "duration": 254700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 871603500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6356127800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "0"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "0"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be able to see Error",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;21",
+        "after": [
+          {
+            "result": {
+              "duration": 186200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061845200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7938104800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "0"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "*"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "0"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4178985400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;22",
+        "after": [
+          {
+            "result": {
+              "duration": 349500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1010915900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6266200400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "N"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "/"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9535454800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Test subtraction, division and CE functionalities",
+        "description": "",
+        "id": "test-online-calculator;test-subtraction,-division-and-ce-functionalities;;23",
+        "after": [
+          {
+            "result": {
+              "duration": 126600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1605966400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to \"https://www.online-calculator.com/full-screen-calculator/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.online-calculator.com/full-screen-calculator/",
+                  "offset": 15
+                }
+              ],
+              "location": "CommonSteps.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7581631100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter following values and press Equal button",
+            "match": {
+              "location": "CalculatorSteps.enterTheNumberButtonsAndEnter(DataTable)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "value1",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "negative1",
+                  "Y"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "operator",
+                  "*"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "value2",
+                  "9"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "negative2",
+                  "N"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12814517900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to see -81",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-81",
+                  "offset": 24
+                }
+              ],
+              "location": "CalculatorSteps.SeeTheExpectedResult(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test online calculator",
+    "description": "",
+    "id": "test-online-calculator",
+    "keyword": "Feature",
+    "uri": "features/calculator.feature"
+  }
+]

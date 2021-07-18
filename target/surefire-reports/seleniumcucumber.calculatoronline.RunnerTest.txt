@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: seleniumcucumber.calculatoronline.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 94, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 200.609 sec

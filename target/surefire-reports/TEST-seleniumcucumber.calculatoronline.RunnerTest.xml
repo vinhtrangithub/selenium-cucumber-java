@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="94" failures="0" name="seleniumcucumber.calculatoronline.RunnerTest" time="0.183" errors="0" skipped="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\personal\selenium-cucumber-java"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\personal\selenium-cucumber-java"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools\;C:\Program Files\nodejs\;C:\apache-maven\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\admin\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python38-32\;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="C:\apache-maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| 6 | N | 1 | N | + | 7 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0.006"/>
+  <testcase classname="| 6 | N | 1 | N | + | 7 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 6 | N | 1 | N | + | 7 |" name="Then I should be able to see 7" time="0"/>
+  <testcase classname="| 6 | N | 1 | N | + | 7 |" name="| 6 | N | 1 | N | + | 7 |" time="0.015"/>
+  <testcase classname="| 9 | N | 7 | N | - | 2 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 7 | N | - | 2 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 7 | N | - | 2 |" name="Then I should be able to see 2" time="0.001"/>
+  <testcase classname="| 9 | N | 7 | N | - | 2 |" name="| 9 | N | 7 | N | - | 2 |" time="0.016"/>
+  <testcase classname="| 3 | N | 4 | N | * | 12 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 3 | N | 4 | N | * | 12 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 3 | N | 4 | N | * | 12 |" name="Then I should be able to see 12" time="0"/>
+  <testcase classname="| 3 | N | 4 | N | * | 12 |" name="| 3 | N | 4 | N | * | 12 |" time="0.005"/>
+  <testcase classname="| 8 | N | 2 | N | / | 4 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 8 | N | 2 | N | / | 4 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 8 | N | 2 | N | / | 4 |" name="Then I should be able to see 4" time="0"/>
+  <testcase classname="| 8 | N | 2 | N | / | 4 |" name="| 8 | N | 2 | N | / | 4 |" time="0.004"/>
+  <testcase classname="| 5 | N | 5 | N | / | 1 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 5 | N | 5 | N | / | 1 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 5 | N | 5 | N | / | 1 |" name="Then I should be able to see 1" time="0"/>
+  <testcase classname="| 5 | N | 5 | N | / | 1 |" name="| 5 | N | 5 | N | / | 1 |" time="0.005"/>
+  <testcase classname="| 3 | N | 2 | N | / | 1.5 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 3 | N | 2 | N | / | 1.5 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 3 | N | 2 | N | / | 1.5 |" name="Then I should be able to see 1.5" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 3 | N | 2 | N | / | 1.5 |" name="| 3 | N | 2 | N | / | 1.5 |" time="0.005">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 3 | N | 2 | N | / | 1.5 |" name="| 3 | N | 2 | N | / | 1.5 |" time="0.005"/>
+  <testcase classname="| 6 | Y | 1 | N | + | -5 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 6 | Y | 1 | N | + | -5 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 6 | Y | 1 | N | + | -5 |" name="Then I should be able to see -5" time="0"/>
+  <testcase classname="| 6 | Y | 1 | N | + | -5 |" name="| 6 | Y | 1 | N | + | -5 |" time="0.004"/>
+  <testcase classname="| 9 | N | 7 | Y | - | 16 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 7 | Y | - | 16 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 7 | Y | - | 16 |" name="Then I should be able to see 16" time="0.001"/>
+  <testcase classname="| 9 | N | 7 | Y | - | 16 |" name="| 9 | N | 7 | Y | - | 16 |" time="0.004"/>
+  <testcase classname="| 8 | Y | 4 | N | * | -32 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 8 | Y | 4 | N | * | -32 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 8 | Y | 4 | N | * | -32 |" name="Then I should be able to see -32" time="0"/>
+  <testcase classname="| 8 | Y | 4 | N | * | -32 |" name="| 8 | Y | 4 | N | * | -32 |" time="0.003"/>
+  <testcase classname="| 3 | Y | 2 | N | / | -1.5 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 3 | Y | 2 | N | / | -1.5 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 3 | Y | 2 | N | / | -1.5 |" name="Then I should be able to see -1.5" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 3 | Y | 2 | N | / | -1.5 |" name="| 3 | Y | 2 | N | / | -1.5 |" time="0.006">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 3 | Y | 2 | N | / | -1.5 |" name="| 3 | Y | 2 | N | / | -1.5 |" time="0.006"/>
+  <testcase classname="| 3 | N | 0 | N | / | Error |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 3 | N | 0 | N | / | Error |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 3 | N | 0 | N | / | Error |" name="Then I should be able to see Error" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 3 | N | 0 | N | / | Error |" name="| 3 | N | 0 | N | / | Error |" time="0.006">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 3 | N | 0 | N | / | Error |" name="| 3 | N | 0 | N | / | Error |" time="0.007"/>
+  <testcase classname="| 0 | Y | 2 | N | / | 0 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0.001"/>
+  <testcase classname="| 0 | Y | 2 | N | / | 0 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 0 | Y | 2 | N | / | 0 |" name="Then I should be able to see 0" time="0"/>
+  <testcase classname="| 0 | Y | 2 | N | / | 0 |" name="| 0 | Y | 2 | N | / | 0 |" time="0.003"/>
+  <testcase classname="| 9 | N | 8 | N | / | 1.125 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 8 | N | / | 1.125 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 8 | N | / | 1.125 |" name="Then I should be able to see 1.125" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 9 | N | 8 | N | / | 1.125 |" name="| 9 | N | 8 | N | / | 1.125 |" time="0.003">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 9 | N | 8 | N | / | 1.125 |" name="| 9 | N | 8 | N | / | 1.125 |" time="0.003"/>
+  <testcase classname="| 8 | Y | 9 | N | / | -0.88888889 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0.001"/>
+  <testcase classname="| 8 | Y | 9 | N | / | -0.88888889 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 8 | Y | 9 | N | / | -0.88888889 |" name="Then I should be able to see -0.88888889" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 8 | Y | 9 | N | / | -0.88888889 |" name="| 8 | Y | 9 | N | / | -0.88888889 |" time="0.004">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 8 | Y | 9 | N | / | -0.88888889 |" name="| 8 | Y | 9 | N | / | -0.88888889 |" time="0.004"/>
+  <testcase classname="| 0 | Y | 0 | N | + | 0 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | + | 0 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | + | 0 |" name="Then I should be able to see 0" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | + | 0 |" name="| 0 | Y | 0 | N | + | 0 |" time="0.003"/>
+  <testcase classname="| 9 | N | 9 | Y | - | 18 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 9 | Y | - | 18 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 9 | Y | - | 18 |" name="Then I should be able to see 18" time="0.001"/>
+  <testcase classname="| 9 | N | 9 | Y | - | 18 |" name="| 9 | N | 9 | Y | - | 18 |" time="0.011"/>
+  <testcase classname="| 9 | N | 9 | N | + | 18 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | + | 18 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | + | 18 |" name="Then I should be able to see 18" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | + | 18 |" name="| 9 | N | 9 | N | + | 18 |" time="0.003"/>
+  <testcase classname="| 0 | N | 9 | N | / | 0 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0.001"/>
+  <testcase classname="| 0 | N | 9 | N | / | 0 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 0 | N | 9 | N | / | 0 |" name="Then I should be able to see 0" time="0"/>
+  <testcase classname="| 0 | N | 9 | N | / | 0 |" name="| 0 | N | 9 | N | / | 0 |" time="0.003"/>
+  <testcase classname="| 0 | N | 0 | N | / | Error |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 0 | N | 0 | N | / | Error |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 0 | N | 0 | N | / | Error |" name="Then I should be able to see Error" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 0 | N | 0 | N | / | Error |" name="| 0 | N | 0 | N | / | Error |" time="0.006">
+    <skipped/>
+    <system-err>[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ================================Test undefined===============================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - ==========================================================================
+[main] INFO seleniumcucumber.calculatoronline.steps.Hooks - 
+</system-err>
+  </testcase>
+  <testcase classname="| 0 | N | 0 | N | / | Error |" name="| 0 | N | 0 | N | / | Error |" time="0.006"/>
+  <testcase classname="| 0 | Y | 0 | N | * | 0 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | * | 0 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | * | 0 |" name="Then I should be able to see 0" time="0"/>
+  <testcase classname="| 0 | Y | 0 | N | * | 0 |" name="| 0 | Y | 0 | N | * | 0 |" time="0.003"/>
+  <testcase classname="| 9 | N | 9 | N | / | 1 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | / | 1 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | / | 1 |" name="Then I should be able to see 1" time="0"/>
+  <testcase classname="| 9 | N | 9 | N | / | 1 |" name="| 9 | N | 9 | N | / | 1 |" time="0.003"/>
+  <testcase classname="| 9 | Y | 9 | N | * | -81 |" name="Given I navigate to &quot;https://www.online-calculator.com/full-screen-calculator/&quot;" time="0"/>
+  <testcase classname="| 9 | Y | 9 | N | * | -81 |" name="When I enter following values and press Equal button" time="0"/>
+  <testcase classname="| 9 | Y | 9 | N | * | -81 |" name="Then I should be able to see -81" time="0"/>
+  <testcase classname="| 9 | Y | 9 | N | * | -81 |" name="| 9 | Y | 9 | N | * | -81 |" time="0.02"/>
+</testsuite>

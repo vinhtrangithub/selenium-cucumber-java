@@ -1,0 +1,12 @@
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\pages\CalculatorPage.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\Constants.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\RunnerTest.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\ScreenshotOperations.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\steps\CalculatorSteps.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\steps\CommonSteps.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\DriverManager.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\bases\IBaseTest.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\NavigateOperations.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\cores\SelectElementByType.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\pages\AbstractPage.java
+D:\personal\selenium-cucumber-java\src\test\java\seleniumcucumber\calculatoronline\steps\Hooks.java
